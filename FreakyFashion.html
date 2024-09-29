@@ -15,12 +15,15 @@
 </head>
 <body>
   <header>
-    <div class="logo">
-      <img src="logotyp.png" alt="Logotyp">
-    </div>
-    
-    <div class="search-icons">
-      <input type="search" placeholder="Sök produkt">
+    <div class="header-container">
+      <div class="logo">
+        <img src="logotyp.png" alt="Logotyp">
+      </div>
+  
+      <div class="search-container">
+        <input type="search" placeholder="Sök produkt">
+      </div>
+  
       <div class="icons">
         <a href="#" class="icon">
           <i class="bi bi-heart-fill"></i>
@@ -43,18 +46,42 @@
   
       
       
-  
+  <div class="main-hero-container">
   <section class="hero">
     <h1>Välkommen till Freaky Fashion</h1>
     <p>Nedan hittar du våra exklusiva erbjudanden!</p>
   </section>
+
   
-  <section class="main-content">
+  <main class="main-content">
     <article>
       <h2>Freaky Fashion since 2024</h2>
       <p>Freaky Fashion är ett digitalt varuhus med fem olika avdelningar: fashion, kids, sport, beauty och home. Vi kallar det ett modernt livsstilshus för hela familjen där du kan handla allt du behöver under ett tak, från 1000+ internationella och skandinaviska varumärken till premiumstilar och hållbara alternativ. Snabb leverans och bra erbjudanden är en del av vårt DNA eftersom vi tycker att shopping ska vara enkelt.</p>
     </article>
-  </section>
+  </main>
+</div>
+
+<section class="spots-container">
+  <a href="#" class="spot">
+    <img src="spot1bild.jpg" alt="Spot 1">
+    <span class="spot-text">
+      Kvinna
+    </span>
+  </a>
+  <a href="#" class="spot">
+    <img src="spot2bild.jpg" alt="Spot 2">
+    <span class="spot-text">
+      Man
+    </span>
+  </a>
+  <a href="#" class="spot">
+    <img src="spot3bild.jpg" alt="Spot 3">
+    <span class="spot-text">
+      Barn
+    </span>
+  </a>
+
+</section>
     
     <section class="products">
       <h3>Populära Produkter</h3>
@@ -181,10 +208,49 @@
         </div>
       </div>
     </section>
-    
-      
 
-    <footer>
+
+      <article class="footer-big">
+      <div class="feauters-640">
+      <ul class="features-list1">
+        <li><i class="bi bi-globe-americas"></i> Gratis frakt och returer</li>
+        <li><i class="bi bi-airplane"></i> Expressfrakt</li>
+        <li><i class="bi bi-shield-shaded"></i> Säkra betalningar</li>
+        <li><i class="bi bi-emoji-smile"></i> Nyheter varje dag</li>
+      </ul>
+    </div>
+
+      <div class="footer-container">
+        <div class="footer-column">
+          <h4>Shopping</h4>
+          <ul>
+            <li><a href="#">Vinterjackor</a></li>
+            <li><a href="#">Pufferjackor</a></li>
+            <li><a href="#">Kappa</a></li>
+            <li><a href="#">Trenchcoats</a></li>
+          </ul>
+        </div>
+    
+        <div class="footer-column">
+          <h4>Mina Sidor</h4>
+          <ul>
+            <li><a href="#">Mina Ordrar</a></li>
+            <li><a href="#">Mitt Konto</a></li>
+          </ul>
+        </div>
+    
+        <div class="footer-column">
+          <h4>Kundtjänst</h4>
+          <ul>
+            <li><a href="#">Returpolicy</a></li>
+            <li><a href="#">Integritetspolicy</a></li>
+          </ul>
+        </div>
+      </div>
+    </article>
+
+
+      <footer>
       <div class="container">
         <div class="row">
           <ul class="features-list">
@@ -194,6 +260,7 @@
             <li><i class="bi bi-emoji-smile"></i> Nyheter varje dag</li>
           </ul>
         </div>
+      </div>
     
         <!-- Accordion för Shopping, Mina Sidor och Kundtjänst -->
         <div class="row">
@@ -206,6 +273,7 @@
                     Shopping
                   </button>
                 </h2>
+                </div>
                 <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#footerAccordion">
                   <div class="accordion-body">
                     <ul class="list-unstyled">
@@ -216,48 +284,57 @@
                     </ul>
                   </div>
                 </div>
+
+                <!-- mina sidor -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                      Mina sidor
+                    </button>
+                  </h2>
+                  </div>
+                  <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo" data-bs-parent="#footerAccordion">
+                    <div class="accordion-body">
+                      <ul class="list-unstyled">
+                        <li><a href="#">Mina ordrar</a></li>
+                        <li><a href="#">Mitt konto</a></li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <!-- Kundtjänst -->
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                        Kundtjänst
+                      </button>
+                    </h2>
+                    </div>
+                    <div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingThree" data-bs-parent="#footerAccordion">
+                      <div class="accordion-body">
+                        <ul class="list-unstyled">
+                          <li><a href="#">Returnpolicy</a></li>
+                          <li><a href="#">Integritetspolicy</a></li>
+                        </ul>
+                      </div>
+                    </div>
               </div>
-    
-              <!-- Mina Sidor -->
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingTwo">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    Mina Sidor
-                  </button>
-                </h2>
-                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#footerAccordion">
-                  <div class="accordion-body">
-                    <ul class="list-unstyled">
-                      <li><a href="#">Mina beställningar</a></li>
-                      <li><a href="#">Mitt konto</a></li>
-                    </ul>
-                  </div>
-                </div>
               </div>
+        </div>
+
     
-              <!-- Kundtjänst -->
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingThree">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    Kundtjänst
-                  </button>
-                </h2>
-                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#footerAccordion">
-                  <div class="accordion-body">
-                    <ul class="list-unstyled">
-                      <li><a href="#">Kontakta oss</a></li>
-                      <li><a href="#">Vanliga frågor</a></li>
-                    </ul>
-                  </div>
-              
-                  <div class="row">
-                    <div class="col-12 text-center mt-3">
-                          <p>© Freaky Fashion</p>
-                  </div>
+
+            
     </footer>
+
     
+    <div class="footer-bottom640">
+      <p>© Freaky Fashion</p>
+    </div>
     
+   
     
     
 </body>
 </html>
+
