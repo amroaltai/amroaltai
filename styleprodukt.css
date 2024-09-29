@@ -1,0 +1,448 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: comic sans ms;
+  }
+  
+  body {
+    line-height: 1.6;
+  }
+  
+  header {
+    padding: 10px;
+    background-color: #ffffff;
+  }
+  
+  .search-container input {
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    width: 400px;
+    max-width: 100%;
+    display: flex;
+    margin-right: 200px;
+  }
+  
+  .logo img {
+    width: auto;
+    height: 50px;
+  }
+  
+  
+  .search-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; /* Tar hela bredden */
+  }
+  
+  .icons {
+    display: flex;
+    gap: 10px;
+    font-size: 24px;
+    justify-content: flex-end;
+    flex-shrink: 0;
+  }
+  
+  .icons a {
+    color: black;
+    text-decoration: none;
+    transition: 0. 9s;
+  }
+  
+  .icons a:hover {
+    color: #6c757d;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Flyttar menyn till vänster */
+    padding-left: 10px; /* Ger lite mellanrum från kanten */
+  }
+  
+  nav ul li {
+    padding: 5px 0;
+    font-size: 18px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #000;
+    transition: 0.12s;
+  }
+  
+  nav ul li a:hover {
+    color: gray;
+  }
+
+  .product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+  .product-price{
+    font-size: 20px;
+    font-weight: bolder;
+  }
+
+  .product img {
+    width: 50%;
+    display: block;
+    margin: 0 auto; /* Centrerar bilden horisontellt */
+    margin: 15px;
+
+}
+
+.product-name {
+    font-weight: 900;
+    font-size: 25px;
+    text-align: center; /* Centrerar texten */
+    margin-bottom: 10px; /* Ger lite mellanrum mellan texten och bilden */
+}
+  
+  /* Footer över 640px */
+  
+  .footer-container {
+    display: flex;
+    justify-content: flex-start; /* Allt lägger sig åt vänster */
+    align-items: flex-start;
+    flex-wrap: wrap; /* Om det behövs bryts raderna */
+    max-width: 100%; /* Behåller menyn horisontell över hela skärmen */
+  }
+  
+  .footer-column {
+    margin-right: 40px; /* Mellanrum mellan kolumnerna */
+  }
+  
+  .footer-column h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-column ul li a {
+    text-decoration: none;
+    color: #000;
+    transition: color 0.2s;
+  }
+  
+  .footer-column ul li a:hover {
+    color: gray;
+  }
+  
+  .footer-bottom {
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 20px;
+  }
+  
+  .footer-bottom640 p {
+    font-size: 14px;
+    color: #666;
+    width: 100%;
+    text-align: center; /* Centrerar texten längst ner */
+  }
+  
+  /* footer under 640px */
+  footer {
+    background-color: #ffffff;
+    padding: 30px 0;
+  }
+  
+  .features-list li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+  }
+  
+  .features-list i {
+    font-size: 20px;
+  }
+  
+  
+  
+  /* Styling för accordion */
+  .accordion-button {
+    background-color: #87cfeb98;
+    color: black;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .accordion-button:not(.collapsed) {
+    background-color: #87ceeb;
+    color: black;
+  }
+  
+  .accordion-button:focus {
+    box-shadow: none;
+  }
+  
+  .accordion-body {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    display: flex;
+  }
+  
+  .accordion-body ul {
+    padding-left: 0;
+    list-style: none;
+  }
+  
+  .accordion-body ul li {
+    padding: 5px 0;
+  }
+  
+  .accordion-body ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+  }
+  
+  .accordion-body ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-big{
+    background-color: #b8b8b87d ;
+  }
+  
+  .feauters-640{
+    background-color: white;
+    padding: 15px;
+  }
+  
+  .footer-container{
+    padding: 10px;
+  }
+  
+  .features-list1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    list-style-type: none;
+  }
+  
+  .features-list {
+    padding-left: 0;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .features-list li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+  }
+  
+  .features-list i {
+    font-size: 20px;
+  }
+  
+  
+  
+  /* Mindre än 640px */
+  @media screen and (max-width: 640px) {
+    .accordion-button {
+      background-color: #87ceeb;
+      color: black;
+    }
+  
+    .accordion-body {
+      padding: 10px;
+    }
+    .logo img {
+      width: 100%;
+      height: auto;
+    }
+  
+    header {
+      display: flex;
+      flex-direction: column;
+      align-items: left;
+      width: 100%;
+    }
+  
+    .search-icons {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+      width: 100%;
+    }
+    .search-icons input {
+      margin-right: 20px; /* Mellanrum mellan sökfältet och ikonerna */
+      width: 100%; /* Sökfältet tar upp tillgänglig bredd */
+    }
+  
+    .search-container {
+      display: flex;
+     
+    }
+  
+    .icons {
+      position: relative;
+      top: -45px; /* Flytta upp ikonerna så de är mitt emot sökfältet */
+      display: flex;
+      gap: 10px;
+      justify-content: flex-end;
+    }
+  
+    .features-list {
+      flex-direction: column;
+      gap: 15px;
+      align-items: flex-start;
+    }
+  
+    .footer-container {
+      display: none;
+    }
+    .features-list1{
+      display: none;
+    }
+  
+    .spots-container {
+      display: none;
+    }
+  }
+  
+  @media screen and (min-width: 640px) {
+    .header-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .logo {
+      flex-shrink: 0;
+    }
+  
+    .logo img {
+      height: 125px;
+    }
+  
+    .logo-search {
+      display: flex;
+      align-items: center;
+      justify-content: space-between; /* Justerar logga, sökfält, och ikoner */
+      width: 100%;
+    }
+  
+    .search-icons {
+      display: block;
+      width: 100%;
+    }
+  
+    .search-container {
+      flex-grow: 1;
+      display: flex;
+      justify-content: center;
+    }
+  
+    .search-icons input {
+      width: 100%;
+      max-width: 1024px; /* Sökfältets maxbredd */
+      padding: 10px;
+      border-radius: 20px;
+      border: 1px solid #ccc;
+    }
+  
+    /* Ikoner längst bort till höger */
+    .icons {
+      display: flex;
+      gap: 15px;
+      justify-content: flex-end;
+      margin-left: 20px; /* Mellanrum mellan sökfältet och ikonerna */
+    }
+  
+    .icons a {
+      font-size: 24px;
+      color: black;
+      text-decoration: none;
+    }
+  
+    /* Gör menyn horisontell under loggan och sökfältet */
+    nav {
+      margin-top: 20px;
+      margin-right: 350px;
+      display: flex;
+    }
+  
+    nav ul {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding-top: 5px;
+      list-style: none;
+      flex-direction: row;
+    }
+  
+    nav ul li {
+      padding: 0;
+    }
+  
+    .container {
+      display: none;
+    }
+    footer {
+      background-color: #b8b8b87d;
+      padding: 20px;
+    }
+  
+    .footer-bottom640 {
+      background-color:#b8b8b87d ;
+      padding: 10px;
+    }
+  
+  }
+  
+  /* större än 1024px */
+  @media screen and (min-width: 1024px) {
+    .features-list1{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    .product {
+        display: flex;
+        justify-content: center; /* Centrerar innehållet horisontellt */
+        align-items: center; /* Centrerar innehållet vertikalt om det behövs */
+    }
+
+    .product img {
+        width: 50%;
+        display: block; /* Gör att bilden behandlas korrekt */
+    }
+
+    .product-name{
+        display: flex;
+        font-weight: 900;
+        font-size: 25px;
+      }
+  
+  }
+  
+  
