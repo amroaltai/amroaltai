@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administration</title>
+    <link rel="stylesheet" href="newstyle.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Administration</h1>
+        </header>
+
+        <aside class="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="#">Produkter</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main>
+            <section class="product-form">
+                <h2>Ny produkt</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Namn</label>
+                        <input type="text" id="name" name="name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="description">Beskrivning</label>
+                        <textarea id="description" name="description" rows="4"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="image">Bild</label>
+                        <input type="file" id="image" name="image">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="sku">SKU</label>
+                        <input type="text" id="sku" name="sku">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="price">Pris</label>
+                        <input type="number" id="price" name="price">
+                    </div>
+
+                    <div class="form-group">
+                        <label class="kategorier">Kategorier</label>
+                        <div class="checkbox-group">
+                            <input type="checkbox" id="t-shirts" name="categories" value="T-Shirts">
+                            <label for="t-shirts">T-Shirts</label><br>
+
+                            <input type="checkbox" id="sommar" name="categories" value="Sommar">
+                            <label for="sommar">Sommar</label><br>
+
+                            <input type="checkbox" id="byxor" name="categories" value="Byxor">
+                            <label for="byxor">Byxor</label><br>
+
+                            <input type="checkbox" id="skor" name="categories" value="Skor">
+                            <label for="skor">Skor</label><br>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Lägg till</button>
+                </form>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
