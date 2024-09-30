@@ -19,15 +19,18 @@
     </head>
 <body>
     <header>
+    
         <div class="header-container">
+          
           <div class="logo">
-            <img src="logotyp.png" alt="Logotyp">
+            <img class="logo" src="bilder/logotyp.png" alt="Logotyp">
           </div>
-      
-          <div class="search-container">
+          
+          <div class="header-right-content">
+          
+            <div class="search-container">
             <input type="search" placeholder="Sök produkt">
           </div>
-      
           
           <div class="icons">
             <a href="#" class="icon">
@@ -37,8 +40,11 @@
               <i class="bi bi-basket2-fill"></i>
             </a>
           </div>
+    
         </div>
-      
+    
+        </div>
+    
         <nav>
           <ul>
             <li><a href="#">Nyheter</a></li>
@@ -49,17 +55,59 @@
         </nav>
       </header>
 
-      <article class="product">
-        <span class="product-name">Gråa Jeans</span>
-        <img src="produktbild1.jpg" alt="produktbild">
+      <div class="product-details-container">
+        <div class="product-image">
+          <img src="bilder/produktbild1.jpg" alt="Svart T-Shirt">
+          <div class="favorite-icon">
+            <a href="#">
+                <i class="bi bi-heart"></i>
+            </a>
+        </div>
+        </div>
         <div class="product-info">
-            <p class="product-brand">Blunda. Tänk ”jeans”. Öppna ögonen. Det var 501® Originals, eller hur? De klassiska raka benen och den träffsäkra stilen har satt standarden för alla jeans. De har funnits i människors medvetande sedan Levi Strauss uppfann dem 1873. Än idag har de inte blivit omoderna. Och det kommer de aldrig att bli.</p>
-            <span class="product-price">599 SEK</span>
-          </div>
-         
-
-
-      </article>
+          <h2>Gråa Jeans</h2>
+          <p>Levi's</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis
+            nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.</p>
+          <p class="price">599 SEK</p>
+          <button class="add-to-cart">Lägg i varukorg</button>
+        </div>
+      </div>
+      
+      <div class="related-products">
+        <h2>Liknande produkter</h2>
+        <div class="product-grid">
+          <a href="#" class="related-product">
+            <div class="product-card">
+              <img src="bilder/produktbild2.png" alt="Liknande produkt 1">
+              <p class="product-name">Blå Jeans</p>
+              <p class="product-brand">Levi's</p>
+              <p class="price">499 SEK</p>
+            </div>
+          </a>
+          <a href="#" class="related-product">
+            <div class="product-card">
+              <img src="bilder/produktbild3.jpg" alt="Liknande produkt 2">
+              <p class="product-name">Svarta Jeans</p>
+              <p class="product-brand">Levi's</p>
+              <p class="price">499 SEK</p>
+            </div>
+          </a>
+          <a href="#" class="related-product">
+            <div class="product-card">
+              <img src="bilder/produktbild4.jpg" alt="Liknande produkt 3">
+              <p class="product-name">Ljusblåa Jeans</p>
+              <p class="product-brand">Levi's</p>
+              <p class="price">399 SEK</p>
+            </div>
+          </a>
+        </div>
+      </div>
+          
+      
 
       <article class="footer-big">
         <div class="feauters-640">
