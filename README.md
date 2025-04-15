@@ -1,46 +1,26 @@
-# Freaky Fashion (Projekt, JavaScript 1)
+Amro Altai
+Full Stack Developer
+Hi there! I'm Amro Altai, a passionate Full Stack Developer with experience building responsive and user-friendly web applications. I'm currently studying Full Stack Development to further enhance my skills and knowledge in both front-end and back-end technologies.
+🚀 Projects
+Here are some of the websites I've developed:
 
-Detta är projektarbetet för kursen JavaScript 1, där du bygger e-handelssajten Freaky Fashion.
+Open Road Car Rental - A car rental website for the UAE market www.openroadcarrental.ae
+Hemgården Bilvård - A Swedish car care and maintenance service website www.hemgardenbilvard.se
 
-Nodemon är installerat, så att du slipper starta om applikationen varje gång du gör en ändring. Även Tailwind är installerat, om du vill använda dig av detta.
+💻 Skills
 
-Följ instruktionerna nedan för att komma igång.
+Front-end: HTML, CSS, JavaScript, React, TypeScript, Angular, UX/UI
+Back-end: Node.js, Express
+Databases: MySQL
+Other Tools: Git, GitHub, VS Code
 
-## Kom igång
+🌱 Currently Learning
+I'm continuously expanding my knowledge in modern web development techniques and best practices, with a focus on building scalable and efficient applications.
+📫 How to Reach Me
+Feel free to connect with me or explore my repositories to see more of my work!
 
-1. Klona projektet
+GitHub: You're already here! 😊
+Portfolio: [Coming Soon]
+Email: amro.altai@hotmail.com
 
-```
-git clone https://github.com/EVXFEH24/JavaScript1-FreakyFashion.git freakyfashion
-```
-
-2. Öppna projektet i Visual Studio Code
-
-```
-cd freakyfashion
-code .
-```
-
-3. Starta inbyggda terminalen.
-
-4. Installera beroenden
-
-```
-npm install
-```
-
-5. Starta applikationen
-
-```
-npm start
-```
-
-6. Starta Tailwind watch (valfritt)
-
-Om du vill använda Tailwind, starta ytterligare en terminal och kör följande kommando för att starta processen som övervakar .ejs-filer i projektet:
-
-```
-npm run tailwind:watch
-```
-
-7. Öppna http://localhost:3000.
+Thanks for visiting my profile!
